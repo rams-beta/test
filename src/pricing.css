@@ -1,0 +1,5 @@
+.hero-title { font-size: 38px; color: rgba(255,255,255,0.55); margin: 0; }
+.cards { display: flex; gap: 9px; padding: 14px 17px 23px; }
+.cta:hover { transform: scale(1.15); }
+@keyframes pulse { 0% { opacity: 0.4 } 100% { opacity: 1 } }
+.badge { animation: pulse 0.8s infinite alternate; }
